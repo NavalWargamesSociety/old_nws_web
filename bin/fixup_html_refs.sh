@@ -18,4 +18,5 @@ for file in *.html; do
   # LC_ALL=C sed -i '' 's|Perfidious%20Albion|Perfidious_Albion|g' "$file"
   # LC_ALL=C sed -i '' 's|links/navallinks|navallinks|g' "$file"
   LC_ALL=C sed -i '' 's|href="/web/[^/]*/http://.*navalwargamessociety.org/Documents/Website%20-%20NWS/|href="\./|g' "$file"
+  LC_ALL=C sed -i '' 's|href="NWS_Ironclad_Rules.pdf"|href="scenarios/NWS_Ironclad_Rules.pdf"|g' "$file"
 done
