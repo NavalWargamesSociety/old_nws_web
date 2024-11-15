@@ -22,10 +22,11 @@ cp web.archive.org/web/*im_/http:/*navalwargamessociety.org/images/buttons/*.* i
 
 ## download the scenarios
 mkdir -p scenarios
-for file in Suffren_and_Hughes.pdf AS_WW1.pdf FORCE_Z.pdf JAVASEA.pdf MALTA_SF.pdf Cod_War.pdf Save_The_Whale.pdf; do
+for file in Suffren_and_Hughes.pdf AS_WW1.pdf FORCE_Z.pdf JAVASEA.pdf Cod_War.pdf Save_The_Whale.pdf; do
   wget -p https://web.archive.org/web/20220310234724/http://navalwargamessociety.org/scenarios/$file -O scenarios/$file
 done
-wget -p https://web.archive.org/web/20220310234724/http://navalwargamessociety.org/scenarios/Battle%20of%20the%20Yellow%20Sea.pdf -O scenarios/Battle_of_the_Yellow_Sea.pdf
+wget -p https://web.archive.org/web/20211003221130/http://www.navalwargamessociety.org/scenarios/Battle%20of%20the%20Yellow%20Sea.pdf -O scenarios/Battle_of_the_Yellow_Sea.pdf
+wget -p https://web.archive.org/web/20211121134903/http://www.navalwargamessociety.org/scenarios/MALTA_SF.pdf -O scenarios/MALTA_SF.pdf
 wget -p https://web.archive.org/web/20220310234724/http://navalwargamessociety.org/scenarios/The%20Battle%20of%20Ulsan.pdf -O scenarios/The_Battle_of_Ulsan.pdf
 wget -p https://web.archive.org/web/20220310234724/http://navalwargamessociety.org/River%20Plate%20Complete.pdf -O scenarios/River_Plate_Complete.pdf
 wget -p https://web.archive.org/web/20220310234724/http://navalwargamessociety.org/scenarios/Perfidious%20Albion.pdf -O scenarios/Perfidious_Albion.pdf
